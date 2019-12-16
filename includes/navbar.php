@@ -43,6 +43,9 @@
               <p class="d-lg-none d-xl-none">Instagram</p>
             </a>
           </li>
+          <form method="POST">
+          <button class="btn btn-danger" name="logout_btn">Logout</button>
+          </form>
         </ul>
       </div>
     </div>

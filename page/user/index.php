@@ -1,3 +1,9 @@
+<?php 
+include '../../function/user_session.php';
+include '../../function/user_function.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -349,4 +355,8 @@
 </body>
 
 </html>
+<?php 
+user_logout();
+?>
+
 
